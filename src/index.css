@@ -1,0 +1,21 @@
+.cell {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8px;
+    background: #333;
+    margin: 2px;
+    cursor: pointer;
+    border: solid 1px #333;
+}
+
+.cell.filled {
+    /*background: url(https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/cropped-slack-icon-32x32.png) no-repeat cornflowerblue;*/
+    background: cornflowerblue;
+}
+
+.cell.selected {
+    background: yellow;
+}
